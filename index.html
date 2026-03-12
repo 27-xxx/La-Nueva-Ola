@@ -1,16 +1,93 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="es">
 <head>
-<title>Paypal</title>
+<meta charset="UTF-8">
+<title>La Nueva Ola</title>
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color:white;
+    text-align:center;
+}
+
+header{
+    padding:40px;
+    font-size:40px;
+    font-weight:bold;
+}
+
+nav{
+    background:rgba(0,0,0,0.4);
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#00ffff;
+}
+
+.container{
+    margin-top:80px;
+}
+
+button{
+    padding:15px 30px;
+    border:none;
+    background:#00ffff;
+    color:black;
+    font-size:18px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.1);
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    padding:15px;
+    background:rgba(0,0,0,0.4);
+}
+</style>
 </head>
 
 <body>
 
-<h1>La Nueva Ola</h1>
+<header>
+La Nueva Ola 🌊
+</header>
 
-<p>Activate Falton</p>
-<p>
+<nav>
+<a href="#">Inicio</a>
+<a href="#">Proyectos</a>
+<a href="#">Contacto</a>
+</nav>
+
+<div class="container">
+<h1>Bienvenido a mi sitio web</h1>
+<p>Esta página está publicada con GitHub Pages.</p>
+
+<button onclick="alert('¡Bienvenido! 🚀')">
+Haz clic aquí
+</button>
+</div>
+
+<footer>
+© 2026 La Nueva Ola
+</footer>
+
 </body>
-
 </html>
